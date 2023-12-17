@@ -15,13 +15,11 @@ struct item_list{
     float itm_cost;
 };
 
-
 struct buyer_data{
     char name[100];
     char address[200];
     int phn_number;
 };
-
 
 int main()
 {
@@ -76,7 +74,6 @@ int main()
 }
 
 
-
 void customer_data_input(){
     struct buyer_data data;
     printf("Enter the Customer Name: ");
@@ -87,16 +84,12 @@ void customer_data_input(){
     scanf("%d\n", &data.phn_number);
 }
 
-
-
 void customer_data_output(){
     struct buyer_data data;
     printf("Name:\t\t%s\n", data.name);
     printf("Address:\t\t%s\n", data.address);
     printf("Phone Number:\t\t%d\n", data.phn_number);
 }
-
-
 
 void bill_data( int n ){
     struct item_list item[n];
