@@ -1,4 +1,3 @@
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=debasishray16.Shopizz)
 
 
 ## Shopping-Bill-Calc.-System
